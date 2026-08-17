@@ -1,0 +1,18 @@
+.container img{
+  max-width: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin {
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: #000;
+  background: #fff;
+  height: 40px;
+}
