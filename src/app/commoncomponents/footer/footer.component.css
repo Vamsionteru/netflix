@@ -1,7 +1,18 @@
 a {
   color: #a8a8a8;
+  margin: 10px;
 }
 
 .row {
   display: flex;
+  align-items: center;
 }
+
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+
