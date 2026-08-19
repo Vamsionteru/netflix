@@ -1,0 +1,58 @@
+.hero-section img {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 3px solid #555;
+}
+
+.hero-content {
+  background: linear-gradient(to left bottom, transparent, black);
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  max-width: 35%;
+  padding: 5px;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.hero-input-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+.email-input {
+  width: 60%;
+  height: 100%;
+  border: 2px solid #555;
+  border-radius: 35px;
+  margin: 5px;
+  padding: 0px 15px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.joinnow-btn {
+  width: 40%;
+  height: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 35px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: red;
+  color: #fff;
+  font-size: 18px;
+}

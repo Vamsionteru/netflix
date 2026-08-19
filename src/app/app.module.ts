@@ -23,6 +23,25 @@ import { SpeedTestComponent } from './navigating_components/speed-test/speed-tes
 import { LegalNoticesComponent } from './navigating_components/legal-notices/legal-notices.component';
 import { FooterComponent } from './commoncomponents/footer/footer.component';
 import { NavbarComponent } from './commoncomponents/navbar/navbar.component';
+import { YourNextWatchComponent } from './navigating_components/only-on-netflix/your-next-watch/your-next-watch.component';
+import { KDramasComponent } from './navigating_components/only-on-netflix/k-dramas/k-dramas.component';
+import { IndianTeamDramasComponent } from './navigating_components/only-on-netflix/indian-team-dramas/indian-team-dramas.component';
+import { AwardWinningTvShowsComponent } from './navigating_components/only-on-netflix/award-winning-tv-shows/award-winning-tv-shows.component';
+import { HollywoodMoviesComponent } from './navigating_components/only-on-netflix/hollywood-movies/hollywood-movies.component';
+import { InternationalTvShowsComponent } from './navigating_components/only-on-netflix/international-tv-shows/international-tv-shows.component';
+import { UsTvShowsComponent } from './navigating_components/only-on-netflix/us-tv-shows/us-tv-shows.component';
+import { HindiLanguageMoviesComponent } from './navigating_components/only-on-netflix/hindi-language-movies/hindi-language-movies.component';
+import { TvSeriesComponent } from './navigating_components/only-on-netflix/tv-series/tv-series.component';
+import { InternationalTvDramasComponent } from './navigating_components/only-on-netflix/international-tv-dramas/international-tv-dramas.component';
+import { ComedyMoviesComponent } from './navigating_components/only-on-netflix/comedy-movies/comedy-movies.component';
+import { EpicWorldsComponent } from './navigating_components/only-on-netflix/epic-worlds/epic-worlds.component';
+import { RomanticMoviesComponent } from './navigating_components/only-on-netflix/romantic-movies/romantic-movies.component';
+import { CriticallyAcclaimedTvShowsComponent } from './navigating_components/only-on-netflix/critically-acclaimed-tv-shows/critically-acclaimed-tv-shows.component';
+import { UsTvDramasComponent } from './navigating_components/only-on-netflix/us-tv-dramas/us-tv-dramas.component';
+import { TvComediesComponent } from './navigating_components/only-on-netflix/tv-comedies/tv-comedies.component';
+import { BitOfHurryComponent } from './navigating_components/only-on-netflix/bit-of-hurry/bit-of-hurry.component';
+import { PlansComponent } from './navigating_components/only-on-netflix/plans/plans.component';
+import { HeroSectionComponent } from './navigating_components/only-on-netflix/hero-section/hero-section.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +65,26 @@ import { NavbarComponent } from './commoncomponents/navbar/navbar.component';
     SpeedTestComponent,
     LegalNoticesComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    YourNextWatchComponent,
+    KDramasComponent,
+    IndianTeamDramasComponent,
+    AwardWinningTvShowsComponent,
+    HollywoodMoviesComponent,
+    InternationalTvShowsComponent,
+    UsTvShowsComponent,
+    HindiLanguageMoviesComponent,
+    TvSeriesComponent,
+    InternationalTvDramasComponent,
+    ComedyMoviesComponent,
+    EpicWorldsComponent,
+    RomanticMoviesComponent,
+    CriticallyAcclaimedTvShowsComponent,
+    UsTvDramasComponent,
+    TvComediesComponent,
+    BitOfHurryComponent,
+    PlansComponent,
+    HeroSectionComponent,
   ],
   imports: [
     BrowserModule,
